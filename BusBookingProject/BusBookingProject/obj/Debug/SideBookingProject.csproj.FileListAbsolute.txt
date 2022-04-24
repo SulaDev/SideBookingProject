@@ -1,0 +1,8 @@
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\bin\BusBookingProject.dll.config
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\bin\BusBookingProject.dll
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\bin\BusBookingProject.pdb
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\obj\Debug\SideBookingProject.csproj.CoreCompileInputs.cache
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\obj\Debug\SideBookingProject.csproj.CopyComplete
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\obj\Debug\BusBookingProject.dll
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\obj\Debug\BusBookingProject.pdb
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\obj\Debug\SideBookingProject.csproj.AssemblyReference.cache
