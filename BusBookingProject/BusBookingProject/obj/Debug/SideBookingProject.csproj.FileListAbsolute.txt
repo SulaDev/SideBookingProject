@@ -6,3 +6,11 @@ D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\Bus
 D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\obj\Debug\BusBookingProject.dll
 D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\obj\Debug\BusBookingProject.pdb
 D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\BusBookingProject\BusBookingProject\obj\Debug\SideBookingProject.csproj.AssemblyReference.cache
+C:\Users\sulta\Desktop\SideBookingProject\BusBookingProject\BusBookingProject\bin\BusBookingProject.dll.config
+C:\Users\sulta\Desktop\SideBookingProject\BusBookingProject\BusBookingProject\bin\BusBookingProject.dll
+C:\Users\sulta\Desktop\SideBookingProject\BusBookingProject\BusBookingProject\bin\BusBookingProject.pdb
+C:\Users\sulta\Desktop\SideBookingProject\BusBookingProject\BusBookingProject\obj\Debug\SideBookingProject.csproj.AssemblyReference.cache
+C:\Users\sulta\Desktop\SideBookingProject\BusBookingProject\BusBookingProject\obj\Debug\SideBookingProject.csproj.CoreCompileInputs.cache
+C:\Users\sulta\Desktop\SideBookingProject\BusBookingProject\BusBookingProject\obj\Debug\SideBookingProject.csproj.CopyComplete
+C:\Users\sulta\Desktop\SideBookingProject\BusBookingProject\BusBookingProject\obj\Debug\BusBookingProject.dll
+C:\Users\sulta\Desktop\SideBookingProject\BusBookingProject\BusBookingProject\obj\Debug\BusBookingProject.pdb

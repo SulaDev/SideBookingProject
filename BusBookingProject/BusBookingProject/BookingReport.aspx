@@ -24,11 +24,11 @@
                 </asp:GridView>
 
               <div id="ticket" runat="server" visible="false">
-                <h1 style="font-weight: bold">Online Bus Booking</h1>
+                <h1 style="font-weight: bold">Online Side Booking</h1>
                 <br />
                 <br />
 
-                <h2 style="font-weight: bold">PNR Details</h2>
+                <h2 style="font-weight: bold">Детали бронирования</h2>
                 <div class="table-bordered">
                     <table class="table-striped" id="tbtPNR" runat="server" style="width: 100%; color: green; font-size: large">
                         <tr>
