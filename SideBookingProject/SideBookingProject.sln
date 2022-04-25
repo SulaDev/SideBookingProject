@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideBookingProject", "BusBookingProject\SideBookingProject.csproj", "{42A5219E-0AD8-4C83-80AD-38AC3A17399C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SideBookingProject", "SideBookingProject\SideBookingProject.csproj", "{42A5219E-0AD8-4C83-80AD-38AC3A17399C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
