@@ -29,8 +29,8 @@ namespace BusBookingProject
             if(dsOrigin.Tables[0].Rows.Count>0)
             {
                 ddlOrigin.DataSource = dsOrigin.Tables[0];
-                ddlOrigin.DataTextField = "CityName";
-                ddlOrigin.DataValueField = "CityName";
+                ddlOrigin.DataTextField = "SideName";
+                ddlOrigin.DataValueField = "SideName";
                 ddlOrigin.DataBind();
             }
             ddlOrigin.Items.Insert(0, new ListItem("-Выберите компанию--","0"));

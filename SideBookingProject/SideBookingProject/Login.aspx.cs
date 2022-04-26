@@ -59,7 +59,7 @@ namespace BusBookingProject
             }
             else
             {
-                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Invalid Credentials Passed,Please check your username and Password')", true); 
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Неправильный логин или пароль пожалуйста введите корректные данные')", true); 
             }
         }
     }
