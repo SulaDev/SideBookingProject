@@ -46,9 +46,9 @@ namespace BusBookingProject
                 Session["UserID"] = Convert.ToInt32(dsLogin.Tables[0].Rows[0]["regId"]);
                 Session["FName"] = Convert.ToString(dsLogin.Tables[0].Rows[0]["Fname"]);
                 Session["MobileNo"] = Convert.ToString(dsLogin.Tables[0].Rows[0]["Contact"]);
-                if(Request.QueryString["BusID"]!=null)
+                if(Request.QueryString["SideID"]!=null)
                 {
-                    Response.Redirect("PassengerDetailsInfo.aspx?BusID=" + Request.QueryString["BusID"] + "&SeatNo=" + Request.QueryString["SeatNo"] + "&TravelDate=" + Request.QueryString["TravelDate"] +
+                    Response.Redirect("PassengerDetailsInfo.aspx?SideID=" + Request.QueryString["SideID"] + "&SeatNo=" + Request.QueryString["SeatNo"] + "&TravelDate=" + Request.QueryString["TravelDate"] +
                   "&Origin=" + Request.QueryString["Origin"] + "&Destination=" + Request.QueryString["Destination"] + "&BoardingID=" + Request.QueryString["BoardingID"] + "&Fare=" + Request.QueryString["Fare"]);
                 }
                 else

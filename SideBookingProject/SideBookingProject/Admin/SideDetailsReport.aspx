@@ -13,32 +13,32 @@
                         </asp:TemplateField >
                        <asp:TemplateField HeaderText="ID Компании">
                            <ItemTemplate>
-                               <asp:Label ID="lblBusID" runat="server" Text='<%# Eval("BusId") %>'></asp:Label>
+                               <asp:Label ID="lblSideID" runat="server" Text='<%# Eval("SideId") %>'></asp:Label>
                            </ItemTemplate>
                        </asp:TemplateField>
                          <asp:TemplateField HeaderText="Номер Брони">
                            <ItemTemplate>
-                               <asp:Label ID="lblBusNo" runat="server" Text='<%# Eval("BusNo") %>'></asp:Label>
+                               <asp:Label ID="lblBusNo" runat="server" Text='<%# Eval("SideNo") %>'></asp:Label>
                            </ItemTemplate>
                        </asp:TemplateField>
                           <asp:TemplateField HeaderText="Название компании">
                            <ItemTemplate>
-                               <asp:Label ID="lblBusName" runat="server" Text='<%# Eval("BusName") %>'></asp:Label>
+                               <asp:Label ID="lblSideName" runat="server" Text='<%# Eval("SideName") %>'></asp:Label>
                            </ItemTemplate>
                        </asp:TemplateField>
                          <asp:TemplateField HeaderText="Тип погрузчика">
                            <ItemTemplate>
-                               <asp:Label ID="lblBusType" runat="server" Text='<%# Eval("BustType") %>'></asp:Label>
+                               <asp:Label ID="lblBusType" runat="server" Text='<%# Eval("SideType") %>'></asp:Label>
                            </ItemTemplate>
                        </asp:TemplateField>
                          <asp:TemplateField HeaderText="Линия">
                            <ItemTemplate>
-                               <asp:Label ID="lblSeatCol" runat="server" Text='<%# Eval("SeatColumn") %>'></asp:Label>
+                               <asp:Label ID="lblSeatCol" runat="server" Text='<%# Eval("LineColumn") %>'></asp:Label>
                            </ItemTemplate>
                        </asp:TemplateField>
                          <asp:TemplateField HeaderText="Номер Ответвления">
                            <ItemTemplate>
-                               <asp:Label ID="lblSeatRow" runat="server" Text='<%# Eval("SeatRow") %>'></asp:Label>
+                               <asp:Label ID="lblLineRow" runat="server" Text='<%# Eval("LineRow") %>'></asp:Label>
                            </ItemTemplate>
                        </asp:TemplateField>
                          <asp:TemplateField HeaderText="Адрес">
@@ -51,7 +51,7 @@
                             <ItemTemplate>
                                 <asp:HyperLink ID="hlinkUpdate" runat="server" >Изменить информацию</asp:HyperLink>
                                  <asp:HyperLink ID="hlinkAddSchedule" runat="server" >Добавить расписание</asp:HyperLink>
-                                <asp:HiddenField ID="hdnPNRNo" runat="server" Value='<%# Eval("BusId") %>' />
+                                <asp:HiddenField ID="hdnPNRNo" runat="server" Value='<%# Eval("SideId") %>' />
                                  <asp:HiddenField ID="hdnRouteID" runat="server" Value='<%# Eval("RouteID") %>' />
                             </ItemTemplate>
                         </asp:TemplateField>

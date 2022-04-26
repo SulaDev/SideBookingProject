@@ -61,9 +61,9 @@ namespace BusBookingProject.Admin
             if (e.Row.RowType == DataControlRowType.DataRow)
             {
                 HyperLink klnikUpdate = (HyperLink)e.Row.FindControl("hlinkBoarding");
-                HiddenField hdnBusID = (HiddenField)e.Row.FindControl("hdnBusID");
+                HiddenField hdnSideID = (HiddenField)e.Row.FindControl("hdnSideID");
                 HiddenField hdnRouteID = (HiddenField)e.Row.FindControl("hdnRouteID");
-                klnikUpdate.NavigateUrl = "BoardingDetails.aspx?BusID=" + hdnBusID.Value + "&RouteID=" + hdnRouteID.Value;
+                klnikUpdate.NavigateUrl = "BoardingDetails.aspx?SideID=" + hdnSideID.Value + "&RouteID=" + hdnRouteID.Value;
             }
         }
     }

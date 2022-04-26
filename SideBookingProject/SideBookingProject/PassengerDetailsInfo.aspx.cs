@@ -234,7 +234,7 @@ namespace BusBookingProject
                 }
                 sqlCmd.CommandType = CommandType.StoredProcedure;
                 sqlCmd.Parameters.Add("@RegId", SqlDbType.Int);
-                sqlCmd.Parameters.Add("@BusId", SqlDbType.Int);
+                sqlCmd.Parameters.Add("@SideId", SqlDbType.Int);
                 sqlCmd.Parameters.Add("@Fname", SqlDbType.VarChar, 50);
                 sqlCmd.Parameters.Add("@Lname", SqlDbType.VarChar, 50);
                 sqlCmd.Parameters.Add("@Email", SqlDbType.VarChar, 50);
@@ -251,7 +251,7 @@ namespace BusBookingProject
                 for (int i = 0; i < seatArray.Length; i++)
                 {
                     sqlCmd.Parameters[0].Value = Convert.ToInt32(Session["UserID"]);
-                    sqlCmd.Parameters[1].Value = Convert.ToInt32(Request.QueryString["BusID"]);
+                    sqlCmd.Parameters[1].Value = Convert.ToInt32(Request.QueryString["SideID"]);
                     TextBox Fname = (TextBox)gdPassengerDetails.Rows[i].Cells[1].FindControl("txtFName");
                     TextBox Lname = (TextBox)gdPassengerDetails.Rows[i].Cells[2].FindControl("txtLName");
                     TextBox Email = (TextBox)gdPassengerDetails.Rows[i].Cells[3].FindControl("txtEmail");

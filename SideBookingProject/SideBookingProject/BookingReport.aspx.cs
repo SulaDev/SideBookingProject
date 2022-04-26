@@ -98,7 +98,7 @@ namespace BusBookingProject
             gdPaxDetails.DataSource = dsGetData.Tables[0];
             gdPaxDetails.DataBind();
             lblTransactionNo.Text = Convert.ToString(dsGetData.Tables[1].Rows[0]["PNRNo"]);
-            lblBusName.Text = Convert.ToString(dsGetData.Tables[1].Rows[0]["BusName"]);
+            lblSideName.Text = Convert.ToString(dsGetData.Tables[1].Rows[0]["BusName"]);
             //lblDepartureTime.Text = Convert.ToString(dsGetData.Tables[1].Rows[0]["DeptTime"]);
             lblTotalAmount.Text = Convert.ToString(dsGetData.Tables[1].Rows[0]["Amount"]);
             lblTotalTickets.Text = Convert.ToString(dsGetData.Tables[1].Rows[0]["TotalTickets"]);

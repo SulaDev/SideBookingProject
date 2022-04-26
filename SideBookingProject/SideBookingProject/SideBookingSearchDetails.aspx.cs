@@ -55,12 +55,12 @@ namespace BusBookingProject
         {
             if(e.Row.RowType==DataControlRowType.DataRow)
             {
-                HiddenField hdnNewBusID = (HiddenField)e.Row.FindControl("hdnBusID");
-                HiddenField hdnNewSeatRow = (HiddenField)e.Row.FindControl("hdnSeatRow");
-                HiddenField hdnNewSeatCol = (HiddenField)e.Row.FindControl("hdnSeatColumn");
+                HiddenField hdnNewSideID = (HiddenField)e.Row.FindControl("hdnSideID");
+                HiddenField hdnNewLineRow = (HiddenField)e.Row.FindControl("hdnLineRow");
+                HiddenField hdnNewSeatCol = (HiddenField)e.Row.FindControl("hdnLineColumn");
                 HyperLink hlnkSelect = (HyperLink)e.Row.FindControl("hplnkSelect");
                 Label lblFare = (Label)e.Row.FindControl("lblFare");
-                hlnkSelect.NavigateUrl="LineDetails.aspx?BusID=" + hdnNewBusID.Value + "&Row=" + hdnNewSeatRow.Value + "&Column=" + hdnNewSeatCol.Value+
+                hlnkSelect.NavigateUrl="LineDetails.aspx?SideID=" + hdnNewSideID.Value + "&Row=" + hdnNewLineRow.Value + "&Column=" + hdnNewSeatCol.Value+
                     "&Origin=" + Request.QueryString["Origin"]+
                     "&TravelDate=" + Request.QueryString["TravelDate"]+"&Fare="+lblFare.Text;
             }

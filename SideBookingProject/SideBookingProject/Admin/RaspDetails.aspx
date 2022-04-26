@@ -18,7 +18,7 @@
                        </asp:TemplateField>
                           <asp:TemplateField HeaderText="Название">
                            <ItemTemplate>
-                               <asp:Label ID="lblBusName" runat="server" Text='<%# Eval("Origin") %>'></asp:Label>
+                               <asp:Label ID="lblSideName" runat="server" Text='<%# Eval("Origin") %>'></asp:Label>
                            </ItemTemplate>
                        </asp:TemplateField>
                       
@@ -26,7 +26,7 @@
                             <ItemTemplate>
                                 <asp:HyperLink ID="hlinkBoarding" runat="server" >Выбор линии</asp:HyperLink>
                                  <asp:HiddenField ID="hdnRouteID" runat="server" Value='<%# Eval("RouteID") %>' />
-                                 <asp:HiddenField ID="hdnBusID" runat="server" Value='<%# Eval("BusId") %>' />
+                                 <asp:HiddenField ID="hdnSideID" runat="server" Value='<%# Eval("SideId") %>' />
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>

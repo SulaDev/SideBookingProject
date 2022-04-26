@@ -40,7 +40,7 @@ namespace BusBookingProject.Admin
             }
             sqlCmd.CommandType = CommandType.StoredProcedure;
             sqlCmd.Parameters.AddWithValue("@Date", Convert.ToString(txtDate.Text));
-            sqlCmd.Parameters.AddWithValue("@BusID", Convert.ToInt32(Request.QueryString["BusID"]));
+            sqlCmd.Parameters.AddWithValue("@SideID", Convert.ToInt32(Request.QueryString["SideID"]));
             sqlCmd.Parameters.AddWithValue("@Fare", Convert.ToDecimal(txtFare.Text));
             sqlCmd.Parameters.AddWithValue("@EstimatdTime", Convert.ToString(txtTravelTime.Text));
             sqlCmd.Parameters.AddWithValue("@ArrivalTime", Convert.ToString(txtArrival.Text));

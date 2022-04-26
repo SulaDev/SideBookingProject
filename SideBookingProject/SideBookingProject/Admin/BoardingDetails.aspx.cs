@@ -42,7 +42,7 @@ namespace BusBookingProject.Admin
             sqlCmd.Parameters.AddWithValue("@RouteID", Convert.ToInt32(Request.QueryString["RouteID"]));
             sqlCmd.Parameters.AddWithValue("@PlaceName", Convert.ToString(txtPlace.Text));
             sqlCmd.Parameters.AddWithValue("@PlaceTime", Convert.ToString(txtArrival.Text));
-            sqlCmd.Parameters.AddWithValue("@BusID", Convert.ToInt32(Request.QueryString["BusID"]));
+            sqlCmd.Parameters.AddWithValue("@SideID", Convert.ToInt32(Request.QueryString["SideID"]));
             sqlCmd.CommandText = "addBordingDetails";
             sqlCmd.Connection = connString;
             ResultCout = sqlCmd.ExecuteNonQuery(); ;

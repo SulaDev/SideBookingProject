@@ -60,22 +60,22 @@ namespace BusBookingProject.Admin
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFirstName;
 
         /// <summary>
-        /// lblSeatRow элемент управления.
+        /// lblLineRow элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSeatRow;
+        protected global::System.Web.UI.WebControls.Label lblLineRow;
 
         /// <summary>
-        /// txtSeatRows элемент управления.
+        /// txtLineRows элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSeatRows;
+        protected global::System.Web.UI.WebControls.TextBox txtLineRows;
 
         /// <summary>
         /// rfVMobileNo элемент управления.
@@ -96,13 +96,13 @@ namespace BusBookingProject.Admin
         protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// txtBusName элемент управления.
+        /// txtSideName элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtBusName;
+        protected global::System.Web.UI.WebControls.TextBox txtSideName;
 
         /// <summary>
         /// RequiredFieldValidator3 элемент управления.
@@ -177,13 +177,13 @@ namespace BusBookingProject.Admin
         protected global::System.Web.UI.WebControls.Label lblPassword;
 
         /// <summary>
-        /// txtSeatColumn элемент управления.
+        /// txtLineColumn элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSeatColumn;
+        protected global::System.Web.UI.WebControls.TextBox txtLineColumn;
 
         /// <summary>
         /// rfvPassword элемент управления.

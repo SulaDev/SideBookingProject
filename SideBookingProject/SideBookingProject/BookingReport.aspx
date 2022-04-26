@@ -49,7 +49,7 @@
                         <tr>
                             <td style="font-weight: bold">Компания</td>
                             <td>
-                                <asp:Label ID="lblBusName" runat="server"></asp:Label></td>
+                                <asp:Label ID="lblSideName" runat="server"></asp:Label></td>
                         </tr>
                     </table>
                 </div>

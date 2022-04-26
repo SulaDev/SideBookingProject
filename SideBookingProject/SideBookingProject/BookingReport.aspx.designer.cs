@@ -18,7 +18,7 @@ namespace BusBookingProject
         /// gdTicketReport элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gdTicketReport;
@@ -27,7 +27,7 @@ namespace BusBookingProject
         /// ticket элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl ticket;
@@ -36,7 +36,7 @@ namespace BusBookingProject
         /// tbtPNR элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlTable tbtPNR;
@@ -45,7 +45,7 @@ namespace BusBookingProject
         /// lblTransactionNo элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblTransactionNo;
@@ -54,7 +54,7 @@ namespace BusBookingProject
         /// lblTotalTickets элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblTotalTickets;
@@ -63,25 +63,25 @@ namespace BusBookingProject
         /// lblTotalAmount элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblTotalAmount;
 
         /// <summary>
-        /// lblBusName элемент управления.
+        /// lblSideName элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblBusName;
+        protected global::System.Web.UI.WebControls.Label lblSideName;
 
         /// <summary>
         /// gdPaxDetails элемент управления.
         /// </summary>
         /// <remarks>
-        /// Автоматически созданное поле.
+        /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView gdPaxDetails;

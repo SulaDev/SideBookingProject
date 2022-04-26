@@ -11,7 +11,7 @@
                                 <%# Container.DataItemIndex+1 %>
                             </ItemTemplate>
                         </asp:TemplateField>
-                        <asp:BoundField HeaderText="Название компании" DataField="BusName" />
+                        <asp:BoundField HeaderText="Название компании" DataField="SideName" />
                          <asp:BoundField HeaderText="Имя клмента" DataField="PaxName" />
                         <asp:BoundField HeaderText="Email" DataField="Email" />
                          <asp:BoundField HeaderText="Номер телефона" DataField="Contact" />

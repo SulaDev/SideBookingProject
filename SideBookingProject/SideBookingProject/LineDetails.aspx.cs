@@ -44,7 +44,7 @@ namespace BusBookingProject
                 connString.Open();
             }
             sqlCmd.CommandType = CommandType.StoredProcedure;
-            sqlCmd.Parameters.AddWithValue("@BusID", Convert.ToInt32(Request.QueryString["BusID"]));
+            sqlCmd.Parameters.AddWithValue("@SideID", Convert.ToInt32(Request.QueryString["SideID"]));
             sqlCmd.CommandText = "ispGetBoardingPoints";
             sqlCmd.Connection = connString;
             SqlDataAdapter sda = new SqlDataAdapter(sqlCmd);
@@ -69,7 +69,7 @@ namespace BusBookingProject
                 connString.Open();
             }
             sqlCmd.CommandType = CommandType.StoredProcedure;
-            sqlCmd.Parameters.AddWithValue("@BusID", Convert.ToInt32(Request.QueryString["BusID"]));
+            sqlCmd.Parameters.AddWithValue("@SideID", Convert.ToInt32(Request.QueryString["SideID"]));
             sqlCmd.Parameters.AddWithValue("@TravelDate", Convert.ToString(Request.QueryString["TravelDate"]));
             sqlCmd.CommandText = "ispGetBookedLineNo";
             sqlCmd.Connection = connString;
@@ -84,12 +84,12 @@ namespace BusBookingProject
             lblPerSeat.Text = Request.Form[hdnFare.UniqueID];
             if(Session["UserID"]!=null)
             {
-                Response.Redirect("PassengerDetailsInfo.aspx?BusID=" + Request.QueryString["BusID"] + "&SeatNo=" + lblSelectedSeat.Text + "&TravelDate=" + Request.QueryString["TravelDate"] +
+                Response.Redirect("PassengerDetailsInfo.aspx?SideID=" + Request.QueryString["SideID"] + "&SeatNo=" + lblSelectedSeat.Text + "&TravelDate=" + Request.QueryString["TravelDate"] +
                 "&Origin=" + Request.QueryString["Origin"] + "&Destination=" + Request.QueryString["Destination"] + "&BoardingID=" + ddlBoardingpoints.SelectedValue + "&Fare=" + lblPerSeat.Text);
             }
             else
             {
-                Response.Redirect("Login.aspx?BusID=" + Request.QueryString["BusID"] + "&SeatNo=" + lblSelectedSeat.Text + "&TravelDate=" + Request.QueryString["TravelDate"] +
+                Response.Redirect("Login.aspx?SideID=" + Request.QueryString["SideID"] + "&SeatNo=" + lblSelectedSeat.Text + "&TravelDate=" + Request.QueryString["TravelDate"] +
                 "&Origin=" + Request.QueryString["Origin"] + "&Destination=" + Request.QueryString["Destination"] + "&BoardingID=" + ddlBoardingpoints.SelectedValue + "&Fare=" + lblPerSeat.Text);
             }
             

@@ -18,13 +18,13 @@
                             <asp:Label ID="lblFirstName" runat="server" Text="Дата бронирования" Font-Bold="true"></asp:Label>
                             <asp:TextBox ID="txtDate" runat="server" placeholder="DD/MM/YYYY" class="form-control input-sm floatlabel"/>
                              <asp:RequiredFieldValidator runat="server" ControlToValidate="txtDate" Display="None" ID="rfvFirstName" ValidationGroup="vgRegister"
-                                    CssClass="text-danger" ErrorMessage="Date is required." /><br />
+                                    CssClass="text-danger" ErrorMessage="ВВедите дату бронирования" /><br />
                         </div>
                        <div class="form-group">
                             <asp:Label ID="lblUserName" runat="server" Text="Стоимость брони" Font-Bold="true"></asp:Label>
                             <asp:TextBox ID="txtFare" runat="server" class="form-control input-sm floatlabel" />
                              <asp:RequiredFieldValidator runat="server" ControlToValidate="txtFare" Display="None" ID="rfVMobileNo" ValidationGroup="vgRegister"
-                                    CssClass="text-danger" ErrorMessage="Fare  is required." /><br />
+                                    CssClass="text-danger" ErrorMessage="Введите стоимость" /><br />
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6">
@@ -32,14 +32,14 @@
                             <asp:Label ID="lblLastName" runat="server" Text="Общее время бронирования" Font-Bold="true"></asp:Label>
                             <asp:TextBox ID="txtTravelTime" runat="server" placeholder="00hr00" class="form-control input-sm floatlabel"/>
                             <asp:RequiredFieldValidator runat="server" ControlToValidate="txtTravelTime" Display="None" ID="rfVLastName" ValidationGroup="vgRegister"
-                                    CssClass="text-danger" ErrorMessage="Total Travel Time is required." /><br />
+                                    CssClass="text-danger" ErrorMessage="Введите общее время." /><br />
                         </div>
                         
                         <div class="form-group">
                             <asp:Label ID="lblPassword" runat="server" Text="Время конца брони" Font-Bold="true"></asp:Label>
                             <asp:TextBox ID="txtArrival" runat="server" placeholder="00:00" class="form-control input-sm floatlabel"  />
                              <asp:RequiredFieldValidator runat="server" ControlToValidate="txtArrival" Display="None" ID="rfvPassword" ValidationGroup="vgRegister"
-                                    CssClass="text-danger" ErrorMessage="Arrival Time  is required." /><br />
+                                    CssClass="text-danger" ErrorMessage="Введите время конца брони" /><br />
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6">
@@ -47,7 +47,7 @@
                             <asp:Label ID="lblEmail" runat="server" Text="Время начала брони" Font-Bold="true"></asp:Label>
                             <asp:TextBox ID="txtDeparture" placeholder="00:00"  runat="server" class="form-control input-sm floatlabel" />
                              <asp:RequiredFieldValidator runat="server" ControlToValidate="txtDeparture" Display="None" ID="rfVEmail" ValidationGroup="vgRegister"
-                                    CssClass="text-danger" ErrorMessage="Departure Time  is required." /><br />
+                                    CssClass="text-danger" ErrorMessage="Введите время начла брони" /><br />
                         </div>
                     </div>
                     <div class="col-xs-6 col-sm-6 col-md-6">

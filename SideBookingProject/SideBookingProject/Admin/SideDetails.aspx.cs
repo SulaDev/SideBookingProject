@@ -21,10 +21,10 @@ namespace BusBookingProject.Admin
             {
                 if(Session["UserName"]!=null)
                 {
-                    if(Request.QueryString["BusID"]!=null)
+                    if(Request.QueryString["SideID"]!=null)
                     {
-                        int BusID = Convert.ToInt32(Request.QueryString["BusID"]);
-                        FillData(BusID);
+                        int SideID = Convert.ToInt32(Request.QueryString["SideID"]);
+                        FillData(SideID);
                         btnSave.Text = "Обновить";
                     }
                     else
@@ -48,12 +48,12 @@ namespace BusBookingProject.Admin
                 connString.Open();
             }
             sqlCmd.CommandType = CommandType.StoredProcedure;
-            sqlCmd.Parameters.AddWithValue("@BusID", Convert.ToInt32(Request.QueryString["BusID"]));
-            sqlCmd.Parameters.AddWithValue("@BusNo", Convert.ToString(txtBusNo.Text));
-            sqlCmd.Parameters.AddWithValue("@BusName", Convert.ToString(txtBusName.Text));
-            sqlCmd.Parameters.AddWithValue("@BusType", Convert.ToString(ddlBusType.SelectedItem.Text));
-            sqlCmd.Parameters.AddWithValue("@seatColumn", Convert.ToInt32(txtSeatColumn.Text));
-            sqlCmd.Parameters.AddWithValue("@SeatRow", Convert.ToInt32(txtSeatRows.Text));
+            sqlCmd.Parameters.AddWithValue("@SideID", Convert.ToInt32(Request.QueryString["SideID"]));
+            sqlCmd.Parameters.AddWithValue("@SideNo", Convert.ToString(txtBusNo.Text));
+            sqlCmd.Parameters.AddWithValue("@SideName", Convert.ToString(txtSideName.Text));
+            sqlCmd.Parameters.AddWithValue("@SideType", Convert.ToString(ddlBusType.SelectedItem.Text));
+            sqlCmd.Parameters.AddWithValue("@LineColumn", Convert.ToInt32(txtLineColumn.Text));
+            sqlCmd.Parameters.AddWithValue("@LineRow", Convert.ToInt32(txtLineRows.Text));
             sqlCmd.Parameters.AddWithValue("@Origin", Convert.ToString(txtOrigin.Text));
      
             sqlCmd.CommandText = "ispUpdateSideData";
@@ -61,7 +61,7 @@ namespace BusBookingProject.Admin
             ResultCout = sqlCmd.ExecuteNonQuery(); ;
             return ResultCout;
         }
-        private void FillData(int BusID)
+        private void FillData(int SideID)
         {
             DataSet dsGetData = new DataSet();
             SqlCommand sqlCmd = new SqlCommand();
@@ -70,18 +70,18 @@ namespace BusBookingProject.Admin
                 connString.Open();
             }
             sqlCmd.CommandType = CommandType.StoredProcedure;
-            sqlCmd.Parameters.AddWithValue("@BusID", BusID);
+            sqlCmd.Parameters.AddWithValue("@SideID", SideID);
             sqlCmd.CommandText = "ispGetSideDataByBusID";
             sqlCmd.Connection = connString;
             SqlDataAdapter sda = new SqlDataAdapter(sqlCmd);
             sda.Fill(dsGetData);
             if(dsGetData.Tables[0].Rows.Count>0)
             {
-                txtBusName.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["BusName"]);
-                txtBusNo.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["BusNo"]);
-                ddlBusType.SelectedItem.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["BustType"]);
-                txtSeatRows.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["SeatRow"]);
-                txtSeatColumn.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["SeatColumn"]);
+                txtSideName.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["SideName"]);
+                txtBusNo.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["SideNo"]);
+                ddlBusType.SelectedItem.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["SideType"]);
+                txtLineRows.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["LineRow"]);
+                txtLineColumn.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["LineColumn"]);
                 txtOrigin.Text = Convert.ToString(dsGetData.Tables[0].Rows[0]["Origin"]);
             }
         }
@@ -94,11 +94,11 @@ namespace BusBookingProject.Admin
                 connString.Open();
             }
             sqlCmd.CommandType = CommandType.StoredProcedure;
-            sqlCmd.Parameters.AddWithValue("@BusNo", Convert.ToString(txtBusNo.Text));
-            sqlCmd.Parameters.AddWithValue("@BusName", Convert.ToString(txtBusName.Text));
-            sqlCmd.Parameters.AddWithValue("@BustType", Convert.ToString(ddlBusType.SelectedItem.Text));
-            sqlCmd.Parameters.AddWithValue("@SeatColumn", Convert.ToInt32(txtSeatColumn.Text));
-            sqlCmd.Parameters.AddWithValue("@SeatRow", Convert.ToInt32(txtSeatRows.Text));
+            sqlCmd.Parameters.AddWithValue("@SideNo", Convert.ToString(txtBusNo.Text));
+            sqlCmd.Parameters.AddWithValue("@SideName", Convert.ToString(txtSideName.Text));
+            sqlCmd.Parameters.AddWithValue("@SideType", Convert.ToString(ddlBusType.SelectedItem.Text));
+            sqlCmd.Parameters.AddWithValue("@LineColumn", Convert.ToInt32(txtLineColumn.Text));
+            sqlCmd.Parameters.AddWithValue("@LineRow", Convert.ToInt32(txtLineRows.Text));
             sqlCmd.Parameters.AddWithValue("@Origin", Convert.ToString(txtOrigin.Text));
             
             sqlCmd.CommandText = "ispAddSideDetails";
@@ -118,9 +118,9 @@ namespace BusBookingProject.Admin
                    ddlBusType.SelectedValue = "0";
                    txtOrigin.Text = "";
                    txtBusNo.Text = "";
-                   txtSeatColumn.Text = "";
-                   txtSeatRows.Text = "";
-                   txtBusName.Text = "";
+                   txtLineColumn.Text = "";
+                   txtLineRows.Text = "";
+                   txtSideName.Text = "";
                }
                else
                {

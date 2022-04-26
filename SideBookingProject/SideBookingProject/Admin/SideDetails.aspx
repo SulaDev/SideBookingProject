@@ -21,15 +21,15 @@
                                     CssClass="text-danger" ErrorMessage="Введите номер тупика" /><br />
                         </div>
                        <div class="form-group">
-                            <asp:Label ID="lblSeatRow" runat="server" Text="Количество линий" Font-Bold="true"></asp:Label>
-                            <asp:TextBox ID="txtSeatRows" runat="server" class="form-control input-sm floatlabel" />
-                             <asp:RequiredFieldValidator runat="server" ControlToValidate="txtSeatRows" Display="None" ID="rfVMobileNo" ValidationGroup="vgRegister"
+                            <asp:Label ID="lblLineRow" runat="server" Text="Количество линий" Font-Bold="true"></asp:Label>
+                            <asp:TextBox ID="txtLineRows" runat="server" class="form-control input-sm floatlabel" />
+                             <asp:RequiredFieldValidator runat="server" ControlToValidate="txtLineRows" Display="None" ID="rfVMobileNo" ValidationGroup="vgRegister"
                                     CssClass="text-danger" ErrorMessage="Введите количество линий" /><br />
                         </div> 
                         <div class="form-group">
                             <asp:Label ID="Label3" runat="server" Text="Наименование компании" Font-Bold="true"></asp:Label>
-                            <asp:TextBox ID="txtBusName" runat="server" class="form-control input-sm floatlabel" />
-                             <asp:RequiredFieldValidator runat="server" ControlToValidate="txtBusName" Display="None" ID="RequiredFieldValidator3" ValidationGroup="vgRegister"
+                            <asp:TextBox ID="txtSideName" runat="server" class="form-control input-sm floatlabel" />
+                             <asp:RequiredFieldValidator runat="server" ControlToValidate="txtSideName" Display="None" ID="RequiredFieldValidator3" ValidationGroup="vgRegister"
                                     CssClass="text-danger" ErrorMessage="Введите наименование" /><br />
                         </div>
                         <div class="form-group">
@@ -56,9 +56,9 @@
                         
                         <div class="form-group">
                             <asp:Label ID="lblPassword" runat="server" Text="Количество ответвлений" Font-Bold="true"></asp:Label>
-                            <asp:TextBox ID="txtSeatColumn" runat="server" class="form-control input-sm floatlabel"  />
-                             <asp:RequiredFieldValidator runat="server" ControlToValidate="txtSeatColumn" Display="None" ID="rfvPassword" ValidationGroup="vgRegister"
-                                    CssClass="text-danger" ErrorMessage="Seats Column is Require" /><br />
+                            <asp:TextBox ID="txtLineColumn" runat="server" class="form-control input-sm floatlabel"  />
+                             <asp:RequiredFieldValidator runat="server" ControlToValidate="txtLineColumn" Display="None" ID="rfvPassword" ValidationGroup="vgRegister"
+                                    CssClass="text-danger" ErrorMessage="Введите количество ответвлений" /><br />
                         </div>
                     
                        

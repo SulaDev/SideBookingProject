@@ -8,7 +8,7 @@
                     <Columns>
                        <asp:TemplateField HeaderText="Компания">
                            <ItemTemplate>
-                               <asp:Label ID="lblBusName" runat="server" Text='<%# Eval("BusName") %>'></asp:Label>
+                               <asp:Label ID="lblSideName" runat="server" Text='<%# Eval("SideName") %>'></asp:Label>
                            </ItemTemplate>
                        </asp:TemplateField>
                         <asp:TemplateField HeaderText="Время начала">
@@ -34,9 +34,9 @@
                         <asp:TemplateField HeaderText="Добавить">
                             <ItemTemplate>
                                 <asp:HyperLink ID="hplnkSelect" runat="server" ToolTip="Select Bus">Выбрать тупик</asp:HyperLink>
-                                <asp:HiddenField ID="hdnBusID" runat="server" Value='<%# Eval("BusId") %>' />
-                                 <asp:HiddenField ID="hdnSeatRow" runat="server" Value='<%# Eval("SeatRow") %>' />
-                                 <asp:HiddenField ID="hdnSeatColumn" runat="server" Value='<%# Eval("SeatColumn") %>' />
+                                <asp:HiddenField ID="hdnSideID" runat="server" Value='<%# Eval("SideId") %>' />
+                                 <asp:HiddenField ID="hdnLineRow" runat="server" Value='<%# Eval("LineRow") %>' />
+                                 <asp:HiddenField ID="hdnLineColumn" runat="server" Value='<%# Eval("LineColumn") %>' />
                             </ItemTemplate>
                         </asp:TemplateField>
                     </Columns>

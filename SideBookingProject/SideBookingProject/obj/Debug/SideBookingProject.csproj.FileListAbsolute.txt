@@ -22,3 +22,11 @@ D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\Sid
 D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\BusBookingProject\obj\Debug\SideBookingProject.csproj.CopyComplete
 D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\BusBookingProject\obj\Debug\BusBookingProject.dll
 D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\BusBookingProject\obj\Debug\BusBookingProject.pdb
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\SideBookingProject\bin\BusBookingProject.dll.config
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\SideBookingProject\bin\BusBookingProject.dll
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\SideBookingProject\bin\BusBookingProject.pdb
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\SideBookingProject\obj\Debug\SideBookingProject.csproj.AssemblyReference.cache
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\SideBookingProject\obj\Debug\SideBookingProject.csproj.CoreCompileInputs.cache
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\SideBookingProject\obj\Debug\SideBookingProject.csproj.CopyComplete
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\SideBookingProject\obj\Debug\BusBookingProject.dll
+D:\Загрузки\Online Bus Booking System\Online Bus Booking System\code\SideBookingProject\SideBookingProject\SideBookingProject\obj\Debug\BusBookingProject.pdb
