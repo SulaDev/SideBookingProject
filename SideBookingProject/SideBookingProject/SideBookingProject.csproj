@@ -71,7 +71,7 @@
     <Content Include="Admin\BookingReport.aspx" />
     <Content Include="Admin\SideDetails.aspx" />
     <Content Include="Admin\SideDetailsReport.aspx" />
-    <Content Include="Admin\BusScheduleDetails.aspx" />
+    <Content Include="Admin\SideScheduleDetails.aspx" />
     <Content Include="Admin\css\bootstrap.min.css" />
     <Content Include="Admin\css\style.css" />
     <Content Include="Admin\Default.aspx" />
@@ -189,12 +189,12 @@
     <Compile Include="Admin\SideDetailsReport.aspx.designer.cs">
       <DependentUpon>SideDetailsReport.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Admin\BusScheduleDetails.aspx.cs">
-      <DependentUpon>BusScheduleDetails.aspx</DependentUpon>
+    <Compile Include="Admin\SideScheduleDetails.aspx.cs">
+      <DependentUpon>SideScheduleDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Admin\BusScheduleDetails.aspx.designer.cs">
-      <DependentUpon>BusScheduleDetails.aspx</DependentUpon>
+    <Compile Include="Admin\SideScheduleDetails.aspx.designer.cs">
+      <DependentUpon>SideScheduleDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

@@ -113,7 +113,7 @@ namespace BusBookingProject.Admin
                int result = AddBusDetails();
                if (result == -1)
                {
-                   ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Bus Details has been added successfully')", true);
+                   ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Компания добавлена')", true);
               
                    ddlBusType.SelectedValue = "0";
                    txtOrigin.Text = "";

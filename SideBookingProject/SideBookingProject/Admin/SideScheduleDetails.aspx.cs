@@ -56,7 +56,7 @@ namespace BusBookingProject.Admin
             int result = addBusScheduleData();
             if (result == -1)
             {
-                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Bus Schedule Details has been added successfully')", true);
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('Добавлено расписание')", true);
                 txtDeparture.Text = "";
                 txtDate.Text = "";
                 txtArrival.Text = "";

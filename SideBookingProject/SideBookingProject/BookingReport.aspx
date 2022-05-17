@@ -68,7 +68,7 @@
                         <asp:BoundField HeaderText="Contact" DataField="Contact" />
                         <asp:BoundField HeaderText="Line number" DataField="SeatNo" />
                          <asp:BoundField HeaderText="Date" DataField="TravelDate" />
-                         <asp:BoundField HeaderText="Adress" DataField="Origin" />
+                         <asp:BoundField HeaderText="Company" DataField="Origin" />
      
                         <asp:BoundField HeaderText="Линия" DataField="PlaceName" />
                     </Columns>

@@ -65,7 +65,7 @@ namespace BusBookingProject.Admin
                 HyperLink hlinkSchedule = (HyperLink)e.Row.FindControl("hlinkAddSchedule");
                 HiddenField hdnRouteID = (HiddenField)e.Row.FindControl("hdnRouteID");
                 klnikUpdate.NavigateUrl = "SideDetails.aspx?SideID=" + hdnSideID.Value;
-                hlinkSchedule.NavigateUrl = "BusScheduleDetails.aspx?SideID=" + hdnSideID.Value + "&RouteID=" + hdnRouteID.Value;
+                hlinkSchedule.NavigateUrl = "SideScheduleDetails.aspx?SideID=" + hdnSideID.Value + "&RouteID=" + hdnRouteID.Value;
             }
         }
     }
